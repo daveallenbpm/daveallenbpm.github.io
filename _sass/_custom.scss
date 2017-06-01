@@ -1,0 +1,14 @@
+.header-introduction {
+    font-size: 40px;
+    a {
+        color: black;
+        padding: 26px;
+        border: 2px solid black !important;
+        background-color: #eeeeee;
+    }
+    :hover {
+        background-color: white;
+        color: black;
+    }
+    text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+}

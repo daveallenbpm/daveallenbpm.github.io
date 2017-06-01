@@ -63,9 +63,9 @@ force-https: True
 
 <pre><code data-trim class="yaml">
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+author: "Dave Allen"
+title: "Dave Allen"
+description: "Blog and website of Dave Allen, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 err-404-img: "/img/labtocat.png"
