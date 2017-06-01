@@ -4,7 +4,6 @@
 <section id="{{ page.section-type }}" class="container content-section text-center">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-
       {{ page.content | markdownify }}
 
       {% if site.email %}
@@ -15,7 +14,7 @@
               function join_at_email(user, domain){
               return (user && domain)?(user + "@" + domain):"";
               }
-              document.write('<a href="mailto:'
+              document.write('<a class="mailto-link" href="mailto:'
               + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
               + '">'
               + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
@@ -24,10 +23,9 @@
               </script>
             </p>
         {% else %}
-          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+          <p><a class="mailto-link" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         {% endif %}
       {% endif %}
-
     </div>
   </div>
 </section>

@@ -55,7 +55,7 @@ type-speed: 20
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "<a href='https://soundcloud.com/daveallenbpm'>Portfolio</a>"
+  - text: "<a href='/home/#about'>About</a>"
   - text: "<a href='/home/#contact'>Contact me</a>"
 
 # me-img: "/img/jetpacktocat.png"

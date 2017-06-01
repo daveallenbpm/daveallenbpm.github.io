@@ -13,3 +13,21 @@
     }
     text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
 }
+
+.contact-background {
+    background: url(/home/img/nicebackground.jpg) center bottom / cover no-repeat scroll grey;
+    width:100%;
+    color: black;
+}
+
+section {
+    margin-top: 0px !important;
+}
+
+.mailto-link {
+    color: black !important;
+    text-decoration: underline;
+    :hover {
+        text-decoration: none;
+    }
+}
