@@ -136,7 +136,7 @@ email: "daveallenbpm@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Dave Allen blah blah does some stuff"
+author_blurb: "Dave Allen is a composer based in London"
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -152,6 +152,8 @@ social:
     url: "https://twitter.com/daveallenbpm"
   - title: "github"
     url: "https://github.com/daveallenbpm"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/david-allen-31084660"
 #  - title: "bitcoin"
 #    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
 #  - title: "rss"
