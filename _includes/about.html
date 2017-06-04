@@ -10,7 +10,11 @@
           {{ page.content | markdownify }}
         </div>
         <div class="col-md-6">
-          <img alt="Me" src="{{ site.url }}/{{ site.baseurl }}/img/about-photo.jpg" />
+          {% if site.baseurl != "" %}
+            <img alt="Me" src="/{{ site.baseurl }}/img/about-photo.jpg" />
+          {% else %}
+            <img alt="Me" src="/img/about-photo.jpg" />
+          {% endif %}
         </div>
     </div>
   </div>

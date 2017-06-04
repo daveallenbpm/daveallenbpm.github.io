@@ -31,8 +31,8 @@ force-https: True
 lang: "en"
 author: "Dave Allen"
 title: "Dave Allen"
-description: "Website and blog of Dave Allen, composer and software developer. Opinions expressed are my own."
-keywords: "allen, dave, composer, musician, software"
+description: "Website and blog of Dave Allen, composer and software developer."
+keywords: "allen, dave, composer, musician, audio, software, programming"
 favicon: "/img/pixel-face.png"
 
 ################
@@ -126,7 +126,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "daveallenbpm@gmail.com"
+email: "dave@dave-allen-music.com"
 
 ################
 # Author Blurb #
@@ -152,6 +152,8 @@ social:
     url: "https://twitter.com/daveallenbpm"
   - title: "github"
     url: "https://github.com/daveallenbpm"
+  - title: "youtube"
+    url: "https://www.youtube.com/channel/UCMFSm6uAvgXfnsiW4kybxpg"
   - title: "linkedin"
     url: "https://www.linkedin.com/in/david-allen-31084660"
 #  - title: "bitcoin"
