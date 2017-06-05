@@ -102,7 +102,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+# disqus-shortname: "panossakkos"
 
 syntax-highlight: True
 
@@ -136,8 +136,8 @@ email: "dave@dave-allen-music.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Dave Allen is a composer based in London"
-author_blurb_image: "/img/author.png"
+author_blurb: "Dave Allen is a composer and musician based in London. He worked as a software developer for 5 years before deciding to become a composer full time. He has been playing and writing music for over 20 years, and would like to work with you!"
+author_blurb_image: "/img/myface.png"
 
 ##################
 # Social Buttons #
@@ -183,7 +183,7 @@ err-404-img: "/img/labtocat.png"
 
 pages_list:
   About: 'about'
-#  Blog: 'latest-post'
+  Blog: 'latest-post'
 #  Timeline: 'timeline'
   Contact: 'contact'
 
