@@ -166,6 +166,68 @@ function addTohistory() {
 }
 </script>
 
+<!-- Easter egg bit -->
+<script>
+  console.log(" _    _                                                    _                               _ \n| |  | |                                                  | |                             | |\n| |  | | __ _  _____      __   __ _ _ __     ___  __ _ ___| |_ ___ _ __    ___  __ _  __ _| |\n| |/\\| |/ _` |/ _ \\ \\ /\\ / /  / _` | '_ \\   / _ \\/ _` / __| __/ _ \\ '__|  / _ \\/ _` |/ _` | |\n\\  /\\  / (_| | (_) \\ V  V /  | (_| | | | | |  __/ (_| \\__ \\ ||  __/ |    |  __/ (_| | (_| |_|\n \\/  \\/ \\__,_|\\___/ \\_/\\_( )  \\__,_|_| |_|  \\___|\\__,_|___/\\__\\___|_|     \\___|\\__, |\\__, (_)\n                         |/                                                     __/ | __/ |  \n                                                                               |___/ |___/   ");
+  console.log("Look at you, snooping around in the code!\nIf you're interested, this site is a fork of https://github.com/PanosSakkos/personal-jekyll-theme, which runs using Jekyll.");
+  console.log("Want to play a game? Type 'game.play()' to start");
+  window.game = window.game ? window.game : {};
+  window.game.state = {
+    area: "corridor",
+    hasTorch: false,
+    leftCount: 0
+  };
+
+  var game = window.game;
+
+  game.getLeftText = function() {
+    var text;
+    var leftCount = game.state.leftCount;
+
+    if (leftCount === 0) {
+      text = "It's dark. You stumble around for a bit before banging your knee on something you can't see. You'll need a source of light to get through here.";
+    } else if (leftCount === 1) {
+      text = "You hit your other knee, immediately regret your decision, and rue your lack of short term memory."
+    } else if (leftCount === 3) {
+      return "I can't believe you've done this."
+    }
+    else {
+      text = "You're about to take a step to the left, when you have a flashback to banging your knees a few seconds ago. You stay where you are."
+    }
+
+    return text;
+  };
+
+  game.play = function() {
+    console.log("Welcome to the game! You're in a grey corridor. There's darkness to the left (game.left()), and light to the right (game.right()).")
+  };
+
+  game.left = function() {
+    if (!game.state.hasTorch) {
+      console.log(game.getLeftText());
+      game.state.leftCount += 1;
+      console.log("You're in a grey corridor. There's darkness to the left (game.left()), and light to the right (game.right()).");
+    } else {
+      console.log("You encounter a strange door, a door that can only be unlocked with a strange blend of audio signals!");
+      console.log("You realise that you're on the website of a composer / sound designer who will be able to assist you!");
+      console.log("You decide to humor the writer, and take a look at his website and have a listen to some of his tracks.");
+      console.log("Thanks for playing!");
+      console.log("THE END");
+    }
+  };
+
+  game.right = function() {
+    if (!game.state.hasTorch) {
+      console.log("You walk into a a brightly lit room. It's a little bare, as if the writer of this game didn't bother to take the time to write a proper description. There's a torch inexplicably floating in the middle of the room. You take it with you.");
+      game.state.hasTorch = true;
+    } else {
+      console.log("You've already collected the torch, and the narrator has run out of interesting things to say about this room. More features in this room will be released as DLC.");
+    }
+
+    console.log("You're in a grey corridor. There's darkness to the left (game.left()), and light to the right (game.right()).");
+  };
+</script>
+
 <!-- Gesture Navigation / Swipe Instruction Start -->
 {% if site.enable-gesture-navigation %}
 
