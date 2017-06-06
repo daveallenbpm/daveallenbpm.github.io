@@ -169,7 +169,7 @@ function addTohistory() {
 <!-- Easter egg bit -->
 <script>
   console.log(" _    _                                                    _                               _ \n| |  | |                                                  | |                             | |\n| |  | | __ _  _____      __   __ _ _ __     ___  __ _ ___| |_ ___ _ __    ___  __ _  __ _| |\n| |/\\| |/ _` |/ _ \\ \\ /\\ / /  / _` | '_ \\   / _ \\/ _` / __| __/ _ \\ '__|  / _ \\/ _` |/ _` | |\n\\  /\\  / (_| | (_) \\ V  V /  | (_| | | | | |  __/ (_| \\__ \\ ||  __/ |    |  __/ (_| | (_| |_|\n \\/  \\/ \\__,_|\\___/ \\_/\\_( )  \\__,_|_| |_|  \\___|\\__,_|___/\\__\\___|_|     \\___|\\__, |\\__, (_)\n                         |/                                                     __/ | __/ |  \n                                                                               |___/ |___/   ");
-  console.log("Look at you, snooping around in the code!\nIf you're interested, this site is a fork of https://github.com/PanosSakkos/personal-jekyll-theme, which runs using Jekyll.");
+  console.log("Surprise!\nIf you're looking to discover what powers this site, it's a fork of https://github.com/PanosSakkos/personal-jekyll-theme, which runs using Jekyll, and is hosted on github pages.");
   console.log("Want to play a game? Type 'game.play()' to start");
   window.game = window.game ? window.game : {};
   window.game.state = {
@@ -187,12 +187,14 @@ function addTohistory() {
     if (leftCount === 0) {
       text = "It's dark. You stumble around for a bit before banging your knee on something you can't see. You'll need a source of light to get through here.";
     } else if (leftCount === 1) {
-      text = "You hit your other knee, immediately regret your decision, and rue your lack of short term memory."
+      text = "You hit your other knee on an unseen object, and immediately regret your decision to return to this dark area with unseen pointy things without a source of light."
     } else if (leftCount === 3) {
-      return "I can't believe you've done this."
+      text = "I used to be an adventurer like you, until I took an unseen object to the knee."; 
+    } else if (leftCount === 4) {
+      text = "I can't believe you've done this.";
     }
     else {
-      text = "You're about to take a step to the left, when you have a flashback to banging your knees a few seconds ago. You stay where you are."
+      text = "You're about to take a step to the left, when you have a flashback to painfully banging your knees a few seconds ago. You stay where you are."
     }
 
     return text;
