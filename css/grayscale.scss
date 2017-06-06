@@ -178,7 +178,7 @@ a {
             font-size: 40px;
         }
         .intro-text {
-            font-size: 18px;
+            font-size: 30px;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }
@@ -192,7 +192,7 @@ a {
                 font-size: 100px;
             }
             .intro-text {
-                font-size: 26px;
+                font-size: 34px;
             }
         }
     }
@@ -252,8 +252,12 @@ a {
     ol {
         text-align: left;
         margin: 0 0 25px;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.5;
+
+        @media(min-width:767px) {
+            font-size: 20px;
+        }
     }
     pre {
       padding: 0;
