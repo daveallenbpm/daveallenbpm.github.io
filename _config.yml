@@ -31,8 +31,8 @@ force-https: True
 lang: "en"
 author: "Dave Allen"
 title: "Dave Allen"
-description: "Website and blog of Dave Allen, composer and software developer."
-keywords: "allen, dave, composer, musician, audio, software, programming"
+description: "Dave Allen is a composer and musician based in London. He worked as a software developer for 5 years before deciding to become a composer full time. He has been playing and writing music for over 20 years."
+keywords: "allen, dave, music, composer, musician, audio, software, programming, programmer, soundtrack"
 favicon: "/img/pixel-face.png"
 
 ################
