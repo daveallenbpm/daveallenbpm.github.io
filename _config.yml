@@ -56,6 +56,7 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "<a href='/#about'>About</a>"
+  - text: "<a href='/#videos'>Videos</a>"
   - text: "<a href='/#blog'>Latest blog post</a>"
   - text: "<a href='/#contact'>Contact me</a>"
 
@@ -184,6 +185,7 @@ err-404-img: "/img/labtocat.png"
 
 pages_list:
   About: 'about'
+  Videos: 'videos'
   Blog: 'latest-post'
 #  Timeline: 'timeline'
   Contact: 'contact'
