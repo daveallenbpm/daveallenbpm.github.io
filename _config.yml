@@ -57,7 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "<a href='/#about'>About</a>"
   - text: "<a href='/#videos'>Videos</a>"
-  - text: "<a href='/#blog'>Latest blog post</a>"
+  - text: "<a href='/#latest-post'>Latest blog post</a>"
   - text: "<a href='/#contact'>Contact me</a>"
 
 # me-img: "/img/jetpacktocat.png"
