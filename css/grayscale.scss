@@ -107,11 +107,13 @@ a {
     }
     a {
         color: $navbar-color;
+
         @if $header-text-shadow{
-            text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+            //text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
         }
     }
     .nav {
+        background-color: rgba(0,0,0,0.5);
         text-align: center;
         li {
             a {
