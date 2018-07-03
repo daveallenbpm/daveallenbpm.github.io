@@ -210,11 +210,11 @@ gems:
   - jemoji
 
 videos:
-  - title: "Dark Souls II Trailer Rescore"
+  - title: "Dark Souls II Trailer - Rescore"
     url: "https://www.youtube.com/embed/jRdyFjKO_yc"
   - title: "Tunic Trailer - Rescore"
     url: "https://www.youtube.com/embed/TB3yNxUtVlI"
-  - title: "Celeste Rescore - Forbidden City"
+  - title: "Celeste, Forbidden City - Rescore (in FMOD)"
     url: "https://www.youtube.com/embed/fOpY_uoIIf0"
   - title: "Game Music"
     url: "https://www.youtube.com/embed/3_UZTaKgrYc"
@@ -224,3 +224,5 @@ videos:
     url: "https://www.youtube.com/embed/YifnmQLc1-4"
   - title: "Brush With Death (Orchestral)"
     url: "https://www.youtube.com/embed/kKk5YdMNf84?ecver=1"
+  - title: "Cyberpunk 2077 Trailer - Rescore"
+    url: "https://www.youtube.com/embed/KbUe-7gX38s?ecver=1"
