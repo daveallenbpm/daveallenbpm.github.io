@@ -58,7 +58,7 @@ lines: # You can add HTML Tags in the Text
   - text: "<a href='/#about'>About</a>"
   - text: "<a href='/#music'>Music</a>"
   - text: "<a href='/#videos'>Videos</a>"
-  - text: "<a href='/#latest-post'>Latest blog post</a>"
+#  - text: "<a href='/#latest-post'>Latest blog post</a>"
   - text: "<a href='/#contact'>Contact me</a>"
 
 # me-img: "/img/jetpacktocat.png"
@@ -188,7 +188,7 @@ pages_list:
   About: 'about'
   Music: 'music'
   Videos: 'videos'
-  Blog: 'latest-post'
+#  Blog: 'latest-post'
 #  Timeline: 'timeline'
   Contact: 'contact'
 
@@ -208,3 +208,19 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
+
+videos:
+  - title: "Dark Souls II Trailer Rescore"
+    url: "https://www.youtube.com/embed/jRdyFjKO_yc"
+  - title: "Tunic Trailer - Rescore"
+    url: "https://www.youtube.com/embed/TB3yNxUtVlI"
+  - title: "Celeste Rescore - Forbidden City"
+    url: "https://www.youtube.com/embed/fOpY_uoIIf0"
+  - title: "Game Music"
+    url: "https://www.youtube.com/embed/3_UZTaKgrYc"
+  - title: "Boundless (Electronic)"
+    url: "https://www.youtube.com/embed/uJPtfY9C0OM"
+  - title: "Elucidate (Strings, Ambience)"
+    url: "https://www.youtube.com/embed/YifnmQLc1-4"
+  - title: "Brush With Death (Orchestral)"
+    url: "https://www.youtube.com/embed/kKk5YdMNf84?ecver=1"
