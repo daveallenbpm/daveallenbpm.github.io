@@ -37,8 +37,11 @@ section {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 10px;
     width: 100%;
-    left: 0;
-    right: 0;
+    position: relative;
+}
+
+.header-title-wrapper {
+  width: 100%;
 }
 
 .header-title {
@@ -60,3 +63,23 @@ section {
 .purple-links a {
     color: purple;
 }
+
+.aspect-ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56%; /* The height of the item will now be 56% of the width. */
+  }
+  
+  /* Adjust the iframe so it's rendered in the outer-width and outer-height of it's parent */
+  .aspect-ratio iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .intro-text-wrapper {
+      margin-top: 25px;
+  }
