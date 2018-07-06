@@ -210,14 +210,14 @@ gems:
   - jemoji
 
 videos:
-  - title: "Dark Souls II Trailer - Rescore"
-    url: "https://www.youtube.com/embed/jRdyFjKO_yc"
-  - title: "Tunic Trailer - Rescore"
-    url: "https://www.youtube.com/embed/TB3yNxUtVlI"
-  - title: "Celeste, Forbidden City - Rescore"
-    url: "https://www.youtube.com/embed/fOpY_uoIIf0"
   - title: "Game Music"
     url: "https://www.youtube.com/embed/3_UZTaKgrYc"
+  - title: "Tunic Trailer - Rescore"
+    url: "https://www.youtube.com/embed/TB3yNxUtVlI"
+  - title: "Dark Souls II Trailer - Rescore"
+    url: "https://www.youtube.com/embed/jRdyFjKO_yc"
+  - title: "Celeste, Forbidden City - Rescore"
+    url: "https://www.youtube.com/embed/fOpY_uoIIf0"
   - title: "Boundless (Electronic)"
     url: "https://www.youtube.com/embed/uJPtfY9C0OM"
   - title: "Elucidate (Strings, Ambience)"
