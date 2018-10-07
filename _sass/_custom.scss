@@ -83,3 +83,28 @@ section {
   .intro-text-wrapper {
       margin-top: 25px;
   }
+  
+  #snake-load-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    font-family: Verdana;
+    width: 200px;
+    padding: 8px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: -50px;
+    cursor: pointer;
+  }
+
+  #game-preload-container {
+      position: relative;
+  }
+
+  #snake-iframe-container {
+      display: none;
+  }

@@ -10,11 +10,12 @@
           {{ page.content | markdownify }}
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
+      <div id="game-preload-container">
           <div id="snake-load-button">Play Game</div>
-          <iframe id="snake-iframe" frameborder="0" allowfullscreen="true" width="1280" height="720"></iframe>
-        </div>
+          <img class="snake-cover-image" src="{{site.baseurl}}{{ site.snake-cover }}" alt="">
+      </div>
+      <div id="snake-iframe-container" class="aspect-ratio">
+          <iframe id="snake-iframe" frameborder="0" allowfullscreen="true"></iframe>
       </div>
     </div>
   </div>
