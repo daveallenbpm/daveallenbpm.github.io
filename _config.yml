@@ -160,6 +160,8 @@ social:
     url: "https://soundcloud.com/daveallenbpm"
   - title: "twitter"
     url: "https://twitter.com/daveallenbpm"
+  - title: "itch"
+    url: "https://daveallenbpm.itch.io"
   - title: "github"
     url: "https://github.com/daveallenbpm"
   - title: "youtube"
@@ -216,6 +218,10 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
+
+games:
+  - title: "Super Funky Disco Snake"
+    description: "A rhythm-based snake game, with a dynamic soundtrack and lots of underfloor lighting. Built with Unity in about 1 month."
 
 videos:
   - title: "Game Music"
