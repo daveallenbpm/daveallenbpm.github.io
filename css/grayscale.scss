@@ -454,7 +454,9 @@ body {
 
 // Put contact background in here so liquid processor runs on this
 .contact-background {
-    background: url({{ site.baseurl }}/img/nicebackground.jpg) center bottom / cover no-repeat scroll grey;
-    width:100%;
-    color: black;
+   // background: url({{ site.baseurl }}/img/nicebackground.jpg) center bottom / cover no-repeat scroll grey;
+   width: 100%;
+   color: black;
+   //background-color: #ddeeff;
+   background-color:#ccdde2;
 }

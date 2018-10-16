@@ -170,8 +170,8 @@ social:
     url: "https://www.linkedin.com/in/david-allen-31084660"
 #  - title: "bitcoin"
 #    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+#  - title: "rss"
+#    url: "/feed.xml"
 
 ############
 # 404 page #
@@ -224,8 +224,8 @@ games:
     description: "A rhythm-based snake game, with a dynamic soundtrack and lots of underfloor lighting. Built with Unity in about 1 month."
 
 videos:
-  - title: "Game Music"
-    url: "https://www.youtube.com/embed/3_UZTaKgrYc"
+  - title: "Super Funky Disco Snake"
+    url: "https://www.youtube.com/embed/qyC1tv2v36k"
   - title: "Tunic Trailer - Rescore"
     url: "https://www.youtube.com/embed/TB3yNxUtVlI"
   - title: "Dark Souls II Trailer - Rescore"
