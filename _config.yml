@@ -224,6 +224,10 @@ games:
     description: "A rhythm-based snake game, with a dynamic soundtrack and lots of underfloor lighting. Built with Unity in about 1 month."
 
 videos:
+  - title: "Albedon Wars - Nontu Music"
+    url: "https://www.youtube.com/embed/JP5NuYcC7ZI"
+  - title: "Albedon Wars - Vertu Music"
+    url: "https://www.youtube.com/embed/QpQW0Xo9TpM"
   - title: "Super Funky Disco Snake"
     url: "https://www.youtube.com/embed/qyC1tv2v36k"
   - title: "The Dreadful Whispers"
