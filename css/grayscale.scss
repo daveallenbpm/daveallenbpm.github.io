@@ -16,7 +16,8 @@ body {
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $font-color;
-    background-color: $primary-color;
+    background-image: url("{{ site.baseurl }}/img/background/greyscalelight.png");
+    background-repeat: repeat;
 }
 
 html {
@@ -339,6 +340,13 @@ footer {
     }
 }
 
+.social-buttons {
+    text-align: center !important;
+    p {
+        margin: 0;
+    }
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
@@ -459,5 +467,8 @@ body {
    color: black;
    //background-color: #ddeeff;
    //background-color:#ccdde2;
-   background-color:#ffffff;
+}
+
+.video-pair {
+    padding-bottom: 50px;
 }

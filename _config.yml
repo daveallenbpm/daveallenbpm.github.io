@@ -33,7 +33,7 @@ author: "Dave Allen"
 title: "Dave Allen"
 description: "Dave Allen is a composer and musician based in London. He worked as a software developer for 5 years before deciding to become a composer full time. He has been playing and writing music for over 20 years."
 keywords: "allen, dave, music, composer, musician, audio, software, programming, programmer, soundtrack"
-favicon: "/img/pixel-face.png"
+favicon: "/img/logowhite.jpg"
 
 ################
 # Header layout #
@@ -196,11 +196,11 @@ err-404-img: "/img/labtocat.png"
 pages_list:
   About: 'about'
   Music: 'music'
-  Games: 'games'
   Videos: 'videos'
+  Games: 'games'
 #  Blog: 'latest-post'
 #  Timeline: 'timeline'
-  Contact: 'contact'
+#  Contact: 'contact'
 
 # Exclusion list from the generated _site
 
@@ -224,8 +224,6 @@ games:
     description: "A rhythm-based snake game, with a dynamic soundtrack and lots of underfloor lighting. Built with Unity in about 1 month."
 
 videos:
-  - title: "Sound Design Showreel"
-    url: "https://www.youtube.com/embed/Q9JzW1Urgx8"
   - title: "The Dreadful Whispers"
     url: "https://www.youtube.com/embed/_5DCdI3qmL8"
   - title: "Albedon Wars - Nontu Music"
@@ -236,18 +234,17 @@ videos:
     url: "https://www.youtube.com/embed/qyC1tv2v36k"
   - title: "Tunic Trailer - Rescore"
     url: "https://www.youtube.com/embed/TB3yNxUtVlI"
-  - title: "The Secret Door"
-    url: "https://www.youtube.com/embed/vAwF3ma-7ek"
+  - title: "Sound Design Showreel"
+    url: "https://www.youtube.com/embed/Q9JzW1Urgx8"
   - title: "Love Dash"
     url: "https://www.youtube.com/embed/9GrJ7Jnt1go"
-  - title: "Planet Recovery"
-    url: "https://www.youtube.com/embed/8xEOmDFX8ww"
   - title: "Dark Souls II Trailer - Rescore"
     url: "https://www.youtube.com/embed/jRdyFjKO_yc"
   - title: "Celeste, Forbidden City - Rescore"
     url: "https://www.youtube.com/embed/fOpY_uoIIf0"
   - title: "Boundless (Electronic)"
     url: "https://www.youtube.com/embed/uJPtfY9C0OM"
+
   # - title: "Elucidate (Strings, Ambience)"
   #   url: "https://www.youtube.com/embed/YifnmQLc1-4"
   # - title: "Brush With Death (Orchestral)"
